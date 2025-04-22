@@ -302,9 +302,9 @@ function Header() {
               </button>
             </div>
           </div>
-          <div>6
+          <div className="flex flex-col items-center justify-center gap-[20px]">
             <div className="flex items-center justify-center gap-[14px] mt-[20px]">
-              <div className="flex flex-col items-center justify-center gap-[10px] w-[330px]">
+              <div className="flex flex-col items-center justify-center gap-[10px] w-[330px] cursor-pointer">
                 <div className="w-[100%]">
                   <img src={thumbnail} alt="" draggable="false" />
                 </div>
@@ -328,7 +328,7 @@ function Header() {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col items-center justify-center gap-[10px] w-[330px]">
+              <div className="flex flex-col items-center justify-center gap-[10px] w-[330px] cursor-pointer">
                 <div className="w-[100%]">
                   <img src={thumbnail} alt="" draggable="false" />
                 </div>
@@ -352,7 +352,7 @@ function Header() {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col items-center justify-center gap-[10px] w-[330px]">
+              <div className="flex flex-col items-center justify-center gap-[10px] w-[330px] cursor-pointer">
                 <div className="w-[100%]">
                   <img src={thumbnail} alt="" draggable="false" />
                 </div>
@@ -376,7 +376,301 @@ function Header() {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col items-center justify-center gap-[10px] w-[330px]">
+              <div className="flex flex-col items-center justify-center gap-[10px] w-[330px] cursor-pointer">
+                <div className="w-[100%]">
+                  <img src={thumbnail} alt="" draggable="false" />
+                </div>
+                <div className="flex items-start justify-center gap-[10px]">
+                  <div className="w-[100px]">
+                    <img src={profile2} alt="" draggable="false" />
+                  </div>
+                  <div className="flex flex-col items-center justify-center gap-[7px]">
+                    <p className="text-white text-[18px] font-[600]">
+                      Bulbuli | Coke Studio Bangla | Season One | Ritu Raj X
+                      Nandita
+                    </p>
+                    <div className="flex flex-col items-start justify-center w-[100%]">
+                      <p className="text-[#AAAAAA] text-[14px] font-[400]">
+                        Coke Studio Bangla
+                      </p>
+                      <p className="text-[#AAAAAA] text-[14px] font-[400]">
+                        1.5 M views 2 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center justify-center gap-[14px] mt-[20px]">
+              <div className="flex flex-col items-center justify-center gap-[10px] w-[330px] cursor-pointer">
+                <div className="w-[100%]">
+                  <img src={thumbnail} alt="" draggable="false" />
+                </div>
+                <div className="flex items-start justify-center gap-[10px]">
+                  <div className="w-[100px]">
+                    <img src={profile2} alt="" draggable="false" />
+                  </div>
+                  <div className="flex flex-col items-center justify-center gap-[7px]">
+                    <p className="text-white text-[18px] font-[600]">
+                      Bulbuli | Coke Studio Bangla | Season One | Ritu Raj X
+                      Nandita
+                    </p>
+                    <div className="flex flex-col items-start justify-center w-[100%]">
+                      <p className="text-[#AAAAAA] text-[14px] font-[400]">
+                        Coke Studio Bangla
+                      </p>
+                      <p className="text-[#AAAAAA] text-[14px] font-[400]">
+                        1.5 M views 2 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col items-center justify-center gap-[10px] w-[330px] cursor-pointer">
+                <div className="w-[100%]">
+                  <img src={thumbnail} alt="" draggable="false" />
+                </div>
+                <div className="flex items-start justify-center gap-[10px]">
+                  <div className="w-[100px]">
+                    <img src={profile2} alt="" draggable="false" />
+                  </div>
+                  <div className="flex flex-col items-center justify-center gap-[7px]">
+                    <p className="text-white text-[18px] font-[600]">
+                      Bulbuli | Coke Studio Bangla | Season One | Ritu Raj X
+                      Nandita
+                    </p>
+                    <div className="flex flex-col items-start justify-center w-[100%]">
+                      <p className="text-[#AAAAAA] text-[14px] font-[400]">
+                        Coke Studio Bangla
+                      </p>
+                      <p className="text-[#AAAAAA] text-[14px] font-[400]">
+                        1.5 M views 2 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col items-center justify-center gap-[10px] w-[330px] cursor-pointer">
+                <div className="w-[100%]">
+                  <img src={thumbnail} alt="" draggable="false" />
+                </div>
+                <div className="flex items-start justify-center gap-[10px]">
+                  <div className="w-[100px]">
+                    <img src={profile2} alt="" draggable="false" />
+                  </div>
+                  <div className="flex flex-col items-center justify-center gap-[7px]">
+                    <p className="text-white text-[18px] font-[600]">
+                      Bulbuli | Coke Studio Bangla | Season One | Ritu Raj X
+                      Nandita
+                    </p>
+                    <div className="flex flex-col items-start justify-center w-[100%]">
+                      <p className="text-[#AAAAAA] text-[14px] font-[400]">
+                        Coke Studio Bangla
+                      </p>
+                      <p className="text-[#AAAAAA] text-[14px] font-[400]">
+                        1.5 M views 2 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col items-center justify-center gap-[10px] w-[330px] cursor-pointer">
+                <div className="w-[100%]">
+                  <img src={thumbnail} alt="" draggable="false" />
+                </div>
+                <div className="flex items-start justify-center gap-[10px]">
+                  <div className="w-[100px]">
+                    <img src={profile2} alt="" draggable="false" />
+                  </div>
+                  <div className="flex flex-col items-center justify-center gap-[7px]">
+                    <p className="text-white text-[18px] font-[600]">
+                      Bulbuli | Coke Studio Bangla | Season One | Ritu Raj X
+                      Nandita
+                    </p>
+                    <div className="flex flex-col items-start justify-center w-[100%]">
+                      <p className="text-[#AAAAAA] text-[14px] font-[400]">
+                        Coke Studio Bangla
+                      </p>
+                      <p className="text-[#AAAAAA] text-[14px] font-[400]">
+                        1.5 M views 2 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center justify-center gap-[14px] mt-[20px]">
+              <div className="flex flex-col items-center justify-center gap-[10px] w-[330px] cursor-pointer">
+                <div className="w-[100%]">
+                  <img src={thumbnail} alt="" draggable="false" />
+                </div>
+                <div className="flex items-start justify-center gap-[10px]">
+                  <div className="w-[100px]">
+                    <img src={profile2} alt="" draggable="false" />
+                  </div>
+                  <div className="flex flex-col items-center justify-center gap-[7px]">
+                    <p className="text-white text-[18px] font-[600]">
+                      Bulbuli | Coke Studio Bangla | Season One | Ritu Raj X
+                      Nandita
+                    </p>
+                    <div className="flex flex-col items-start justify-center w-[100%]">
+                      <p className="text-[#AAAAAA] text-[14px] font-[400]">
+                        Coke Studio Bangla
+                      </p>
+                      <p className="text-[#AAAAAA] text-[14px] font-[400]">
+                        1.5 M views 2 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col items-center justify-center gap-[10px] w-[330px] cursor-pointer">
+                <div className="w-[100%]">
+                  <img src={thumbnail} alt="" draggable="false" />
+                </div>
+                <div className="flex items-start justify-center gap-[10px]">
+                  <div className="w-[100px]">
+                    <img src={profile2} alt="" draggable="false" />
+                  </div>
+                  <div className="flex flex-col items-center justify-center gap-[7px]">
+                    <p className="text-white text-[18px] font-[600]">
+                      Bulbuli | Coke Studio Bangla | Season One | Ritu Raj X
+                      Nandita
+                    </p>
+                    <div className="flex flex-col items-start justify-center w-[100%]">
+                      <p className="text-[#AAAAAA] text-[14px] font-[400]">
+                        Coke Studio Bangla
+                      </p>
+                      <p className="text-[#AAAAAA] text-[14px] font-[400]">
+                        1.5 M views 2 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col items-center justify-center gap-[10px] w-[330px] cursor-pointer">
+                <div className="w-[100%]">
+                  <img src={thumbnail} alt="" draggable="false" />
+                </div>
+                <div className="flex items-start justify-center gap-[10px]">
+                  <div className="w-[100px]">
+                    <img src={profile2} alt="" draggable="false" />
+                  </div>
+                  <div className="flex flex-col items-center justify-center gap-[7px]">
+                    <p className="text-white text-[18px] font-[600]">
+                      Bulbuli | Coke Studio Bangla | Season One | Ritu Raj X
+                      Nandita
+                    </p>
+                    <div className="flex flex-col items-start justify-center w-[100%]">
+                      <p className="text-[#AAAAAA] text-[14px] font-[400]">
+                        Coke Studio Bangla
+                      </p>
+                      <p className="text-[#AAAAAA] text-[14px] font-[400]">
+                        1.5 M views 2 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col items-center justify-center gap-[10px] w-[330px] cursor-pointer">
+                <div className="w-[100%]">
+                  <img src={thumbnail} alt="" draggable="false" />
+                </div>
+                <div className="flex items-start justify-center gap-[10px]">
+                  <div className="w-[100px]">
+                    <img src={profile2} alt="" draggable="false" />
+                  </div>
+                  <div className="flex flex-col items-center justify-center gap-[7px]">
+                    <p className="text-white text-[18px] font-[600]">
+                      Bulbuli | Coke Studio Bangla | Season One | Ritu Raj X
+                      Nandita
+                    </p>
+                    <div className="flex flex-col items-start justify-center w-[100%]">
+                      <p className="text-[#AAAAAA] text-[14px] font-[400]">
+                        Coke Studio Bangla
+                      </p>
+                      <p className="text-[#AAAAAA] text-[14px] font-[400]">
+                        1.5 M views 2 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center justify-center gap-[14px] mt-[20px]">
+              <div className="flex flex-col items-center justify-center gap-[10px] w-[330px] cursor-pointer">
+                <div className="w-[100%]">
+                  <img src={thumbnail} alt="" draggable="false" />
+                </div>
+                <div className="flex items-start justify-center gap-[10px]">
+                  <div className="w-[100px]">
+                    <img src={profile2} alt="" draggable="false" />
+                  </div>
+                  <div className="flex flex-col items-center justify-center gap-[7px]">
+                    <p className="text-white text-[18px] font-[600]">
+                      Bulbuli | Coke Studio Bangla | Season One | Ritu Raj X
+                      Nandita
+                    </p>
+                    <div className="flex flex-col items-start justify-center w-[100%]">
+                      <p className="text-[#AAAAAA] text-[14px] font-[400]">
+                        Coke Studio Bangla
+                      </p>
+                      <p className="text-[#AAAAAA] text-[14px] font-[400]">
+                        1.5 M views 2 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col items-center justify-center gap-[10px] w-[330px] cursor-pointer">
+                <div className="w-[100%]">
+                  <img src={thumbnail} alt="" draggable="false" />
+                </div>
+                <div className="flex items-start justify-center gap-[10px]">
+                  <div className="w-[100px]">
+                    <img src={profile2} alt="" draggable="false" />
+                  </div>
+                  <div className="flex flex-col items-center justify-center gap-[7px]">
+                    <p className="text-white text-[18px] font-[600]">
+                      Bulbuli | Coke Studio Bangla | Season One | Ritu Raj X
+                      Nandita
+                    </p>
+                    <div className="flex flex-col items-start justify-center w-[100%]">
+                      <p className="text-[#AAAAAA] text-[14px] font-[400]">
+                        Coke Studio Bangla
+                      </p>
+                      <p className="text-[#AAAAAA] text-[14px] font-[400]">
+                        1.5 M views 2 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col items-center justify-center gap-[10px] w-[330px] cursor-pointer">
+                <div className="w-[100%]">
+                  <img src={thumbnail} alt="" draggable="false" />
+                </div>
+                <div className="flex items-start justify-center gap-[10px]">
+                  <div className="w-[100px]">
+                    <img src={profile2} alt="" draggable="false" />
+                  </div>
+                  <div className="flex flex-col items-center justify-center gap-[7px]">
+                    <p className="text-white text-[18px] font-[600]">
+                      Bulbuli | Coke Studio Bangla | Season One | Ritu Raj X
+                      Nandita
+                    </p>
+                    <div className="flex flex-col items-start justify-center w-[100%]">
+                      <p className="text-[#AAAAAA] text-[14px] font-[400]">
+                        Coke Studio Bangla
+                      </p>
+                      <p className="text-[#AAAAAA] text-[14px] font-[400]">
+                        1.5 M views 2 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col items-center justify-center gap-[10px] w-[330px] cursor-pointer">
                 <div className="w-[100%]">
                   <img src={thumbnail} alt="" draggable="false" />
                 </div>
